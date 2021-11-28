@@ -12,7 +12,7 @@
         </div>
         <div class="box-pesquisa">
 
-            <form id="form" method="POST" action="resultado.php">
+            <form id="form" method="POST" action="resultado2.php">
                 <label for="roupa"><strong><span class="fonte2">Qual a peça de roupa que você deseja procurar?:</span></strong></label>
                 <select name="roupa" required="required">
                     <option selected="selected" value="">Selecione</option>
