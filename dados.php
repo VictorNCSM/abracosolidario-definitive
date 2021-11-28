@@ -80,7 +80,7 @@
 
 
 
-            <a href="alterar.php">Alterar dados</a>';
+            <span class="fonte2"><a href="alterar.php">Alterar dados</a></span>';
         ?>
 
              </center></div>

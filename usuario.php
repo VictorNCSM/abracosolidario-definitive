@@ -20,6 +20,7 @@
 		font-family: "Nunito";
 		src: url("fontes/Nunito-Regular.ttf");
 	}
+
 	#titulo {
 
 		color: #003889;
@@ -82,7 +83,7 @@
 	#mensagem {
 
 		width: 25%;
-		background-color: #003889;
+		background-color: #ff0000;
 		color: white;
 		border-radius: 13px;
 		font-size: 20px;
@@ -109,7 +110,7 @@
 		height: 128px;
 	}
 
-	.fonte2{
+	.fonte2 {
 		font-family: "Nunito";
 	}
 </style>
