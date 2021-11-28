@@ -1,0 +1,160 @@
+header{
+    width: 101.5%; 
+    height: 135px;
+    margin-left: -8px;
+    text-align: right; 
+    align: center;
+    background-color: red; 
+  text-transform: uppercase;
+    background-color: #2b3fb1;
+    margin-top: -10px;
+    
+  
+
+}
+
+@font-face {
+    font-family: "Antapani";
+    src: url("../fontes/Antapani-ExtraBold.otf");
+}
+
+@font-face {
+    font-family: "Nunito";
+    src: url("../fontes/Nunito-Regular.ttf");
+}
+
+
+.link{
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+
+}
+
+.fonte {
+    color: rgb(255, 0, 0);
+    font-family: "Antapani";
+}
+
+#fonte1{
+    font-family: "Antapani";
+}
+
+#fonte2{
+    font-family: "Nunito";
+}
+
+a {
+    font-family: "Antapani";
+}
+
+
+section{
+    position: absolute;
+    left: -5px;
+    top:125px;
+    width: 100%;
+    height: 800px;
+
+    
+
+
+}
+
+
+#menu{
+    width: 101.9%;
+    height: 1980px;
+    margin-left: 9px;
+     margin-left: -17px;
+    
+     
+     
+
+   
+}
+
+
+footer{
+    position: absolute;
+    height: 100px;  
+    top: 1000px;
+    left: -5px;
+    width: 105%;
+    background-color: #2b3fb1;
+
+
+   
+
+
+}
+
+
+
+
+
+#rodapé {
+    display: flex;
+    height: 110px;  
+    top: 1730px;
+    margin-top: 300px;
+    margin-left: 10px
+    left: -5px;
+    width: 110%;
+    background-color: #2b3fb1;
+    max-width: 100%;
+}
+
+.sessões {
+
+width: 33%;
+
+
+}
+
+
+#zap {
+
+
+margin-left: 10px;
+color: #fff;
+ 
+}
+
+#logo2 {
+
+
+
+margin-right: 130px;
+
+
+
+}
+
+#link {
+
+color: #fff;
+text-decoration: none;
+
+
+
+}
+
+#end {
+
+
+    color: #fff;
+
+}
+
+#logozap{
+    margin-top: 25px;
+    margin-left:90px;
+
+}
+
+#geral{
+
+
+max-width: 100%;
+
+}

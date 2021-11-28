@@ -1,0 +1,66 @@
+@font-face{
+font-family: "Nunito";
+src: url("../fontes/Nunito-Regular.ttf");
+}
+
+@font-face{
+    font-family: "Antapani";
+    src: url("../fontes/Antapani-ExtraBold.otf");
+    }
+
+#geral{
+
+ width: 80%;
+ margin-left: -8px;
+ padding-left: 3%;
+ margin-top: 1%;
+}
+
+.fonte2{
+    font-family: "Nunito";
+}
+
+.titulo-box{
+    margin: 0px 0px 20px 10px;
+    font-family: "Antapani";
+    font-size: 25pt;
+}
+
+.box-pesquisa {
+    font-family: "Nunito";
+}
+
+.box{
+ border-style: solid;
+ border-color: #2b3fb1;
+ width: 85%;
+ height: 110px;
+ margin-top: 10px;
+ border-radius: 7px;
+ padding-left: 12px;
+}
+
+.titulo{
+ margin-top: 10px;
+ height: 50px;
+ width: 90%;
+ font-size: 20pt;
+ font-family: "Antapani";
+}
+
+.cidade{
+ margin-top: 10px;
+ height: 30px;
+ width: 80%;
+ font-size: 15pt;
+ font-family: "Antapani";
+}
+
+.botao{
+    margin-left: 50%;
+    background-color:#dd1d1d;
+    border: none;
+    border-radius:7px;
+    height: 50px;
+    width: 50px;
+}

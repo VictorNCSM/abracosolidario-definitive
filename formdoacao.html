@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<style type="text/css">
+		@font-face { 
+			font-family:"Antapani";
+			src: url("fontes/Antapani-ExtraBold.otf");
+		}
+		
+		@font-face { 
+			font-family: "Nunito";
+			src: url("fontes/Nunito-Regular.ttf");
+		}
+
+		#titulo {
+			font-family: "Antapani";
+			color: #003889;
+			text-align: center;
+		}
+
+		#subtitulo {
+			font-family: "Nunito";
+			text-align: center;
+			color: #0074FF;
+		}
+
+		label {
+			font-family:"Antapani";
+			color: #003889;
+		}
+
+		h2 {
+			font-family:"Antapani";
+			color: #003889;
+		}
+
+		.fonte2 {
+			font-family:"Nunito";
+		}
+
+		#geral {
+			margin-left: 20px;
+		}
+
+
+	</style>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width-device-width, initial-scale=1.0">
+	
+
+	<title>Abraço Solidário - Doação</title>
+</head>
+<body>
+	<div id="geral">
+		<div class="campo">
+
+
+		<h1 id="titulo">Formulário de Doação</h1>
+		<h2 id="subtitulo">Nos informe sobre sua doação</h2>
+		<br>
+
+		</div class="campo">
+
+
+
+		<form>
+
+
+
+
+
+		<div class="campo">
+			
+		<label for="imagem"><strong>Imagem:</strong></label>
+		<input type="file" name="imagem" id="imagem" required>
+
+		</div class="campo">
+
+		<br>
+
+		<div class="campo">
+
+
+		<label for= "quantidade"><strong>Quantidade da doação:</strong></label>
+			<span class="fonte2">
+					<select name="quantidade" required="required">
+					<option selected="selected" value="">Selecione</option>
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="13">13</option>
+					<option value="14">14</option>
+					<option value="15">15</option>
+					<option value="16">16</option>
+					<option value="17">17</option>
+					<option value="18">18</option>
+					<option value="19">19</option>
+					<option value="20">20</option>
+
+					</select>
+			</span>
+
+				
+					<div class="campo">
+
+				</div class="campo">
+
+					<br>
+					
+				<div class="campo">
+
+
+				<label for= "tipo"><strong>Qual a peça de roupa que você deseja doar?</strong></label>
+				<span class="fonte2">
+					<select name="quantidade" required="required">
+						<option selected="selected" value="">Selecione</option>
+						<option value=1>Camiseta</option>
+						<option value=2>Shorts</option>
+						<option value=3>Calça moletom</option>
+						<option value=4>Calça jeans</option>
+						<option value=5>Camiseta manga longa</option>
+						<option value=6>Blusa de moletom</option>
+				
+					</select>
+				</span>
+			<div class ="campo">    
+					
+
+					<h2>Sexo</h2>
+					<span class="fonte2">
+						<input type="radio" name="sexo" value=1>Feminino
+						<input type="radio" name="sexo" value=2>Masculino
+					</span>
+
+					
+				</div class="campo">
+
+				<div class="campo">
+
+
+					<h2>Faixa Etária</h2>
+					<span class="fonte2">
+						<input type="radio" name="faixa_etaria" value=1>Infantil
+						<input type="radio" name="faixa_etaria" value=2>Adulto
+					</span>
+
+					
+				</div class="campo">
+
+
+
+				<br>
+
+
+
+				</div class="campo">
+				
+				<h2>Endereço de Retirada</h2>
+
+				<span class="fonte2">
+					<input type="radio" name="retirada" value=1>Retirar na E.T.E.C
+					<input type="radio" name="retirada" value=2>Retirar no endereço cadastrado
+				</span>
+
+			
+				
+
+				</div class="campo">
+
+				
+				<br>
+
+				<div class="campo">
+					
+					<label for="tamanho"><strong>Tamanho:</strong></label>
+					<input type="text" name="tamanho" id="tamanho" placeholder="Tamanho da roupa">
+					
+					<br>
+
+
+
+					</div class="campo">
+
+
+					<h2>Descrição da roupa</h2>
+
+				<label for="descricao"><strong>Descrição da roupa(se necessário)</strong>
+				<input type="text" name="descricao" id="descricao" style="height:50px; width:1000px">
+
+				<br>   
+
+
+
+				
+
+				<br>
+			
+					<label for="autorizacao">
+					<input type="checkbox" name="newsletter" id="autorizacao" required>
+					<strong>Você concorda com o uso de seu endereço cadastrado?</strong></label>
+
+
+
+
+					
+					<div class="campo">
+					<br>
+			
+		<button class="botao" type="submit" value ="Enviar">Enviar</button>
+
+
+
+
+		</form>
+	</div>
+</body>
+</html>

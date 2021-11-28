@@ -1,0 +1,56 @@
+#css {
+
+color:#0074FF;
+margin-right: 1000px;
+font-size: 15pt;
+
+}
+
+
+#baixo {
+
+
+margin-right: 1000px;
+font-size: 17pt;
+
+}
+
+
+@font-face{
+	font-family: "Antapani";
+	src: url("../fontes/Antapani-ExtraBold.otf");
+}
+
+@font-face{
+	font-family: "Nunito";
+	src: url("../fontes/Nunito-Regular.ttf");
+}
+
+#topo {
+	font-family: "Antapani";
+}
+
+.fonte2 {
+	font-family: "Nunito";
+}
+
+.fonte {
+	font-family: "Antapani";
+}
+
+h1 {
+	color:#003889;
+}
+
+body {
+
+
+ margin-left: 20px;
+
+}
+
+#link {
+
+
+	background-color: #fff;
+}

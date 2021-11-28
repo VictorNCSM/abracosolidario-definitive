@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, inicial-scale=1"/>
+    <link rel="stylesheet" type="text/css" href="css/usuario.css" media="screen"> 
+    <title>Abraço - Usuário</title>
+</head>
+
+
+<style type="text/css">
+    
+
+#titulo{
+
+  color:#003889;
+  font-size: 3em
+
+}
+
+
+#main {
+
+
+display: flex;
+
+}
+
+#doacao {
+
+width: 25%;
+background-color: #003889;
+color: white;
+border-radius: 13px;
+font-size: 20px;
+font-family: sans-serif;
+border-color: white;
+
+
+
+
+    
+}
+
+#dados {
+
+    width: 25%;
+    background-color: #003889;
+    color: white;
+    border-radius: 13px;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-color: white;
+
+
+    
+}
+
+#interesse {
+
+width: 25%;
+background-color: #003889;
+color: white;
+border-radius: 13px;
+font-size: 20px;
+font-family: sans-serif;
+
+border-color: white;
+
+    
+
+}
+
+#mensagem {
+
+    width: 25%;
+    background-color: #003889;
+            color: white;
+            border-radius: 13px;
+            font-size: 20px;
+            font-family: sans-serif;
+            border-color: white;
+
+
+}
+
+#texto {
+
+
+display: flex;
+
+}
+
+h1 {
+
+
+    width: 25%;
+}
+    
+</style>
+
+
+<body style="background-image: url('imagens/banner.png');background-size:100%;background-repeat: no-repeat;">
+
+  <center><h1 id="titulo">Página do Usuário</center></h1> 
+
+   <div id="main">
+
+
+    <?php
+
+        session_start();
+        if(empty($_SESSION["email"])) {
+            echo 'Você não está logado. <a href="login.html">logue-se primeiro</a>.';
+        } else{
+            echo '<button id="doacao" ><img src="imagens/moletom-com-capuz.png"><A HREF="formdoacao.html" target="menu" class="link" style="text-decoration: none"></button>
+
+            <button id="dados"><img src="imagens/pesquisando-dados-no-banco-de-dados.png"><A HREF="dados.php" target="menu" class="link" style="text-decoration: none"></button>
+
+            <button id="interesse"><img src="imagens/interativo.png"><A HREF="interesse.html" target="menu" class="link" style="text-decoration: none">
+
+            <button id="mensagem"><img src="imagens/mensagem.png"><A HREF="mensagem.html" target="menu" class="link" style="text-decoration: none"></button>';
+        }
+    ?>
+
+    </A>
+
+</div>
+</body>
+</html>

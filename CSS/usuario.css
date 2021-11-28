@@ -1,0 +1,12 @@
+#position{
+	padding-left: 10px;
+}
+
+@font-face {
+	font-family: "Antapani";
+	src: url("../fontes/Antapani-ExtraBold.otf");
+}
+
+#fonte{
+	font-family: "Antapani"
+}

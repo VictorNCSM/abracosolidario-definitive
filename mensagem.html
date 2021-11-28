@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+
+            @font-face{
+                font-family: "Antapani";
+                src: url("../fontes/Nunito-Regular.ttf");
+            }
+
+            #geral{
+                width: 100%;
+                border-style: solid;
+                border-color: black;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                margin-top: -9px;
+                margin-left: -9px;
+            }
+
+            #fonte{
+                font-family: "Antapani";
+            }
+
+            #titulo{
+                margin-left: 1.6%;
+                margin-bottom: 25px;
+                font-size: 25pt;
+            }
+
+            #msg-1{
+                width: 58%;
+                margin-left: 1.6%;
+                border-style: solid;
+                border-color: orange;
+                margin-bottom: 15px;
+                border-radius: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-right: 10px;
+            }
+
+
+            #msg-2{
+                width: 58%;
+                margin-left: 39.6%;
+                border-style: solid;
+                border-color: yellow;
+                margin-bottom: 15px;
+                padding-right: 10px;
+                padding-left: 10px;
+                padding-top: 10px;
+                border-radius: 10px;
+                padding-bottom: 10px;
+            }
+
+            #submit{
+                margin-left: 1.6%;
+            }
+        </style>
+    </head>
+    <body>
+        <span id="fonte">
+            <div id="geral">
+                <div id="titulo">
+                    Chat com fulano
+                </div>
+                <div id="msg-1">
+                    salve
+               </div>
+               <div id="msg-2">
+                    salve
+               </div>
+            <div id="submit">
+                <form method="POST" action="backend/enviar.php">
+                    <textarea name="mensagem" placeholder="Digite sua mensagem aqui" id="textbox" required="required" cols="60" rows="3" width="100%"></textarea>
+                    <input type="submit" value="Enviar" id="botao">
+                </form>
+            </div>
+        </span>
+    </body>
+</html>
